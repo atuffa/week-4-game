@@ -1,0 +1,53 @@
+main{
+    padding-left:10px;
+}
+
+
+.row{
+    margin-bottom:20px;
+    margin-left:0px;
+    
+}
+h1{
+    background-color:orange;
+    color:white;
+    margin-left:10px;
+}
+.instruction{
+    background-color:rgb(241, 234, 122);
+    color:green;
+    margin-left:5px;
+    padding:10px;
+}
+.random_no{
+    background-color:lightgreen;
+    color:black;
+    height: 100px;
+    padding:5px;
+    font-size: 20px;
+   
+}
+.score{
+    background-color:lightblue;
+    color:black;
+    height: 100px;
+    padding:5px;
+}
+.pscore{
+    background-color:green;
+    color:white;
+    margin-left: 10px;
+    line-height: 2.5em;
+}
+
+.scoreboard{
+    height: 100px;
+    padding:5px;
+    font-size: 20px;
+}
+button{
+    background:white;
+}
+/*img{
+    border: 2px solid black;
+}

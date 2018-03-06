@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--meta-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Link-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
+    <link rel="stylesheet" href=".\assets\css\style.css">
+
+    <!--Script-->
+
+    <script></script>
+
+
+
+    <title>CrystalCollectorGame</title>
+
+</head>
+<body>
+    <main>
+        <div class="row">
+            <h1 class="col-md-4">CrystalCollectors!</h1>
+        </div>
+        <div class="row ">
+            <div class="col-md-6">
+                <div class="instruction">
+                    <p>You will be given a random no. at the start of the game.</p>
+                    <p>There are four crystals below. By clicking on crystal you will add a specific amount of points to your total score.</p>
+                    <p> You win the game by matching your total score to random number,
+                        you will lose the game if your total score goes above the random number.
+                    </p>
+                    <p>The value of each crystals hidden until you click on it.</p>
+                    <p>Each time when the game starts the game will change the value of each crystal.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+                <div class="col-md-8">
+                    <div class="random_no">
+                        <p id="randomPickedNumber">1</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="score">
+                        <p >Wins:<span id="wins"></span></p>
+                        <p>Losses:<span id="losses"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        <div class="row">
+            <div class="col-md-6">
+                <div class="col-md-3">
+                    <button onclick=""> <img  class="col-md-12" src="./assets/images/pic1.jpg" alt="Crystal 1" ></button>
+                </div>
+                <div class="col-md-3">
+                    <button onclick=""><img  class="col-md-12" src="./assets/images/pic2.png" alt="Crystal2"></button>
+                </div>
+                <div class="col-md-3">
+                    <button onclick=""><img  class="col-md-12" src="./assets/images/pic3.jpg" alt="Crystal3"></button>
+                </div>
+                <div class="col-md-3">
+                    <button onclick=""><img  class="col-md-12" src="./assets/images/pic4.jpg" alt="Crystal4"></button>
+                </div>  
+            </div>
+        </div>
+            <div class= "row">
+                <p class="pscore col-md-4">Your total score:</p>
+            </div>
+            <div class= "row">
+                <div class="pscore scoreboard col-md-4"></div>
+            </div>
+    </main>
+</body>
+</html>
