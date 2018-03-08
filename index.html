@@ -14,9 +14,9 @@
     <link rel="stylesheet" href=".\assets\css\style.css">
 
     <!--Script-->
-
-    <script></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="C:\Users\abdis\Desktop\week-4-game\assets\javascript\javascript.js"></script>
+    
 
 
     <title>CrystalCollectorGame</title>
@@ -44,13 +44,14 @@
             <div class="col-md-5">
                 <div class="col-md-8">
                     <div class="random_no">
-                        <p id="randomPickedNumber">1</p>
+                        <p id="randomPickedNumber">2</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="score">
-                        <p >Wins:<span id="wins"></span></p>
-                        <p>Losses:<span id="losses"></span></p>
+                        <p id ="congrats"></p>
+                        <p >Wins:<span id="wins">0</span></p>
+                        <p>Losses:<span id="losses">0</span></p>
                     </div>
                 </div>
             </div>
@@ -58,16 +59,16 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="col-md-3">
-                    <button onclick=""> <img  class="col-md-12" src="./assets/images/pic1.jpg" alt="Crystal 1" ></button>
+                    <button id="btn1"> <img  class="col-md-12" src="./assets/images/pic1.jpg" alt="Crystal 1" ></button>
                 </div>
                 <div class="col-md-3">
-                    <button onclick=""><img  class="col-md-12" src="./assets/images/pic2.png" alt="Crystal2"></button>
+                    <button id="btn2"><img  class="col-md-12" src="./assets/images/pic2.png" alt="Crystal2"></button>
                 </div>
                 <div class="col-md-3">
-                    <button onclick=""><img  class="col-md-12" src="./assets/images/pic3.jpg" alt="Crystal3"></button>
+                    <button id="btn3"><img  class="col-md-12" src="./assets/images/pic3.jpg" alt="Crystal3"></button>
                 </div>
                 <div class="col-md-3">
-                    <button onclick=""><img  class="col-md-12" src="./assets/images/pic4.jpg" alt="Crystal4"></button>
+                    <button id="btn4"><img  class="col-md-12" src="./assets/images/pic4.jpg" alt="Crystal4"></button>
                 </div>  
             </div>
         </div>
@@ -75,7 +76,7 @@
                 <p class="pscore col-md-4">Your total score:</p>
             </div>
             <div class= "row">
-                <div class="pscore scoreboard col-md-4"></div>
+                <div id="playerScore" class="pscore scoreboard col-md-4">0</div>
             </div>
     </main>
 </body>
